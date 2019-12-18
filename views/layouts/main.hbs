@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>  
+  <title>{{title}}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Armata|Dosis|Nunito|Playfair+Display|Prompt|Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles/all.css">
+    <link rel="stylesheet" href="/styles/bootstrap.css">
+    <link rel = "stylesheet" href="/styles/body.css">
+    <link rel ="stylesheet" href="/styles/{{styles}}">
+</head>
+<body style="overflow-x: hidden">
+  {{{body}}}  
+  <script src="/scripts/jquery.js"></script>
+  <script src="/scripts/body.js"></script>
+  <script src="/scripts/bootstrap.js"></script>
+  <script src="/scripts/{{scripts}}"></script>
+  <script type="text/javascript">
+   $('#customFile').change(function(event){
+        var fileName = event.target.files[0].name;
+        if (event.target.nextElementSibling!=null){
+            event.target.nextElementSibling.innerText=fileName; 
+        }
+    });
+</script>
+</body>
+</html>

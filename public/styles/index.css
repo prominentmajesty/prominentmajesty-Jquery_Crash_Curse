@@ -1,0 +1,18 @@
+.custom-file{
+    padding: 0px 0px 0px 0px;
+}
+.custom-file{
+    padding : 25px 0px 0px 0px
+}
+.btn-block{
+    background-color: green !important
+} 
+.container ul{
+    margin-top: 25px;
+}
+/*@media(min-width :576px){
+    .form1{
+        margin-right: -15px !important;
+    }
+}
+*/

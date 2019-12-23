@@ -10,6 +10,23 @@
 .container ul{
     margin-top: 25px;
 }
+.paragraph{
+    color : blue;
+    background : #ccc;
+}
+.paragraph2{
+    color : orangered;
+    background : burlywood;
+}
+#box{
+    background : #333;
+    color : #fff;
+    width : 500px;
+    height: 90px;
+    padding-top : 12px;
+    padding-bottom:5px ;
+    text-align: center;
+}
 /*@media(min-width :576px){
     .form1{
         margin-right: -15px !important;
